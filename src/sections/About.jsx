@@ -2,6 +2,7 @@ import { useRef } from "react";
 import Card from "../components/Card";
 import { Globe } from "../components/globe";
 import CopyEmailButton from "../components/CopyEmailButton";
+import ScrollDown from "../components/ScrollDown";
 import { Frameworks } from "../components/Frameworks";
 
 const About = () => {
@@ -78,7 +79,7 @@ const About = () => {
         <div className="grid-black-color grid-3">
           <div className="z-10 w-[50%]">
             <p className="headtext">Learning Journey</p>
-            <p className="subtext">
+            <p className="subtext ">
               Currently pursuing a B.Tech in Computer Engineering.<br></br>
               Focused on mastering clean code, React, and backend development
             </p>
@@ -100,14 +101,17 @@ const About = () => {
         <div className="grid-default-color grid-5">
           <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
-            <p className="subtext">
+            <p className="subtext hidden sm:block">
               I specialize in a variety of languages, frameworks, and tools taht
               allow me to build robust and scalable applications.
-              <br></br>
-              <span className="py-5 font-medium">
+            </p>
+                          <span className="py-5 text-xs sm:text-sm md:text-base">
                 <b>Scroll Down</b> to know more about my skills.
               </span>
-            </p>
+              <div className="relative h-screen">
+  <ScrollDown  />
+</div>
+
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
             <Frameworks />

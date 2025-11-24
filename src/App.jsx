@@ -8,7 +8,7 @@ import Experiences from "./sections/Experiences";
 import Contact from "./sections/Contact";
 import Footer from './sections/Footer';
 import './index.css'; // or './main.css'
-
+import Skills from "./sections/Skill";
 
 const App = () => {
   return (
@@ -16,6 +16,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <Skills/>
       <Projects />
       <Experiences />
       {/* <Testimonial /> */}

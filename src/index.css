@@ -63,8 +63,13 @@ body {
   @apply hover:-translate-y-1 duration-200;
 }
 
+.hover-animation-cards{
+  @apply cursor-pointer hover:-translate-y-2 hover:scale-[1.05] hover:shadow-lg 
+         duration-100 ease-out hover:bg-zinc-800 transition-all;
+}
+
 .section-spacing {
-  @apply min-h-screen mt-20 md:mt-30;
+  @apply min-h-screen mt-10 md:mt-15;
 }
 
 .text-heading {

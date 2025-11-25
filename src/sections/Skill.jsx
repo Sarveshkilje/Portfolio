@@ -51,8 +51,8 @@ const skillItem = [
        desc: "User Interface",
   },
     {
-    imgSrc: "/assets/logos/framer.svg",
-    label: "Python",
+    imgSrc: "/assets/logos/Framer.svg",
+    label: "Framer motion",
     desc: "Animation library",
   },  
   {

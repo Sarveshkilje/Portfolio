@@ -13,8 +13,13 @@ function Navigation() {
           About
         </a>
       </li>
+            <li className="nav-li">
+        <a className="nav-link" href="#skills">
+          Skills
+        </a>
+      </li>
       <li className="nav-li">
-        <a className="nav-link" href="#work">
+        <a className="nav-link" href="#experience">
           Work
         </a>
       </li>

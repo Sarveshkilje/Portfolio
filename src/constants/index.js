@@ -204,7 +204,7 @@ export const mySocials = [
     {
     name: "Github",
     href: "https://github.com/Sarveshkilje",
-    icon: "/assets/socials/github.svg",
+    icon: "/assets/logos/git.svg",
   },
 ];
 
@@ -228,6 +228,14 @@ export const experiences = [
       "Technologies: HTML, CSS, JavaScript, API’s",
       "✅ Developed responsive, cross-browser compatible, and user-friendly interfaces.",
       "✅Built and maintained responsive web pages using HTML, CSS, andJavaScript. Implemented interactive features, ensured cross-browser compatibility, and optimized layouts for seamless user experience.",
+    ],
+  },
+    {
+    title: "Developer Team",
+    job: "React Developer",
+    date: "July 2025 - July 2027",
+    contents: [
+    "Recognized as a React Vite Developer in my college's CSC Cyber Security Club, where I contribute to building modern UI experiences with a strong focus on performance and security.",
     ],
   },
 ];

@@ -1,7 +1,7 @@
 // ScrollDown.jsx
 import React from "react";
 
-export default function ScrollDown({ href = "#next", className = "" }) {
+export default function ScrollDown({ href = "#skills", className = "" }) {
   return (
     <a
       href={href}
@@ -29,7 +29,7 @@ export default function ScrollDown({ href = "#next", className = "" }) {
       </div> */}
 
       {/* Bouncing small chevron for emphasis */}
-      <div className="mt-2 flex justify-center">
+      <div className="mt-10 flex justify-center">
         <svg
           className="w-5 h-5 animate-bounce"
           viewBox="0 0 24 24"

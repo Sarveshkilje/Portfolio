@@ -65,7 +65,7 @@ const skillItem = [
 
 const Skills = () => {
   return (
-    <section className="c-space section-spacing">
+    <section className="Skills c-space section-spacing" id="skills">
       <div className="relative c-space ">
         <h2 className="text-heading">More about Skills</h2>
 

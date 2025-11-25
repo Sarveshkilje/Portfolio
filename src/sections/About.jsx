@@ -108,8 +108,8 @@ const About = () => {
                           <span className="py-5 text-xs sm:text-sm md:text-base">
                 <b>Scroll Down</b> to know more about my skills.
               </span>
-              <div className="relative h-screen">
-  <ScrollDown  />
+              <div className="">
+  <ScrollDown />
 </div>
 
           </div>

@@ -51,15 +51,15 @@ const skillItem = [
        desc: "User Interface",
   },
     {
-    imgSrc: "/assets/logos/python.svg",
+    imgSrc: "/assets/logos/framer.svg",
     label: "Python",
-    desc: "Machine Learning",
+    desc: "Animation library",
   },  
-//   {
-//     // imgSrc: "/assets/logos/react.svg",
-//     // label: "react",
-//     // desc: "Design tool",
-//   },
+  {
+    imgSrc: "/assets/logos/threejs.svg",
+    label: "ThreeJs",
+    desc: "3D graphics library",
+  },
 
 ];
 
